@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-teal-100 pb-5">
+  <nav class="w-full bg-white border-b-5 border-teal-500 rounded-b-full p-7 justify-around flex">
+    <div class="bg-teal-400 shadow-gray-400/40 shadow-lg hover:shadow-none rounded-full p-3 transition duration-300 hover:bg-white  ease-out hover:border-t-2 hover:border-b-2 hover:border-red-800">
+      <a href="#" class="text-center p-2">
+        Sign In
+      </a></div>
+    <div class="bg-teal-400 shadow-gray-400/40 shadow-lg hover:shadow-none rounded-full p-3 transition duration-300 hover:bg-white  ease-out hover:border-t-2 hover:border-b-2 hover:border-red-800">
+      <a href="#" class="text-center p-2">
+        Beranda
+      </a>
+    </div>
+    <div class="bg-teal-400 shadow-gray-400/40 shadow-lg hover:shadow-none rounded-full p-3 transition duration-300 hover:bg-white  ease-out hover:border-t-2 hover:border-b-2 hover:border-red-800">
+      <a href="#" class="text-center p-2">
+        Dashboard
+      </a>
+    </div>
+  </nav>
+  <form action="" class="w-150 bg-white m-auto border-t-8 mt-10  border-b-8 border-teal-500 p-10 rounded-[50px] w-100">
+    
+    <h1 class="text-center items-center ml-[25%] rounded-xl w-[50%] font-bold font-mono text-3xl bg-white p-2 border-teal-400 border-t-4 border-b-4">
+      Biodata Diri
+    </h1>
+
+    <div class="grid md:grid-cols-2 gap-4 mt-5">
+      
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Nama:</label>
+        <input type="text" class="border-gray-400 p-1 border-b w-full " placeholder="Baskara Putra">
+      </div>
+
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Tempat, Tanggal Lahir:</label>
+        <div class="flex gap-2">
+          <input type="text " placeholder="Jakarta" class="border-gray-400 p-1  border-b w-1/2">
+          <input type="date" class="border-gray-400 p-1 border-b w-1/2">
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Jenis Kelamin:</label>
+        <select name="" id="" class="border-gray-400 p-1 border-b w-full" >
+          <option value="">Pilih Jenis Kelamin</option>
+          <option value="">Laki-laki</option>
+          <option value="">Perempuan</option>
+        </select>
+      </div>
+
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Nomor Telepon:</label>
+        <input type="tel" class="border-gray-400 p-1 border-b w-full " placeholder="081234567890">
+      </div>
+
+      <div class="md:col-span-2 mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Alamat:</label>
+        <textarea name="" id="" class="border-gray-400 p-1 border-b w-full" rows="1 " placeholder="contoh : Jl. Dokol Gg. Bhakti Warga II Rt 02/08"></textarea>
+      </div>
+
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Email:</label>
+        <input type="text" class="border-gray-400 p-1 border-b w-full " placeholder="contoh : alexandra6@gmail.com">
+      </div>
+
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Hobi:</label>
+        <input type="text" class="border-gray-400 p-1 border-b w-full " placeholder="contoh : Olahraga">
+      </div>
+
+      <div class="mt-5">
+        <label class="block mb-2 font-semibold text-teal-400">Cita-cita:</label>
+        <input type="text" class="border-gray-400 p-1 border-b w-full " placeholder="contoh : Web Developer">
+      </div>
+
+    </div>
+
+    <h2 class="text-center font-semibold font-mono mt-5 p-3 text-black border-r-3 border-l-3 border-teal-400 w-[25%] rounded-full ml-[37.5%]">Pendidikan</h2>
+    <div class="mt-3">
+    <label for="" class="mb-2 text-teal-400 font-semibold">SD: </label>
+      <input type="text" class="border-gray-400 p-1 border-b w-full" placeholder="Contoh : SDN 01 Paninggilan Utara">
+    </div>
+    <div class="mt-3">
+      <label for="" class="mb-2 text-teal-400 font-semibold">SMP:</label>
+       <input type="text" class="border-gray-400 p-1 border-b w-full" placeholder="Contoh : SMPN 3 Tangerang">
+    </div>
+    <div class="mt-3">
+       <label for="" class="mb-2 text-teal-400 font-semibold">SMA/SMK:</label>
+       <input type="text" class="border-gray-400 p-1 border-b w-full" placeholder="Contoh : SMK Media Informatika">
+    </div>
+
+    <h2 class="text-center font-semibold font-mono mt-5 bg-white border-t-2 border-b-2 border-teal-400 p-3 w-[30%] ml-[35%] rounded-xl">Keahlian</h2>
+    <p class="mt-5">
+      <textarea name="" class="border-gray-400 border-1 rounded-md w-full" rows="4" id=""></textarea>
+    </p>
+
+    <h2 class="text-center font-semibold font-mono mt-5 bg-white border-t-2 border-b-2 border-teal-400 p-3 w-[30%] ml-[35%] rounded-xl">Pengalaman</h2>
+    <p class="mt-5">
+      <textarea name="" class="border-gray-400 border-1 rounded-md w-full" rows="4" id=""></textarea>
+    </p>
+
+    <div class=" mt-10 w-full h-10  ">
+      <button type="submit" class=" items-center p-3 w-[25%] ml-[37.5%] bg-teal-500 text-center font-light rounded-3xl transition duration-300 hover:bg-white  ease-out hover:border-t-2 hover:border-b-2 hover:border-red-800">Sign Up</button>
+    </div>
+
+  </form>
+</body>
+</html>
